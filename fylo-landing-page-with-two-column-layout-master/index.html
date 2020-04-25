@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Fylo landing page with two column layout</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul class="navigation">
+        <li class="navigation__item">
+          <a class="" href="/">
+            <h1>
+              <img class="navigation__logo" src="./images/logo.svg">
+            </h1>
+          </a>
+        </li>
+        <li class="navigation__item navigation__item--pushed">
+          <a class="navigation__link" href="/">
+            Features
+          </a>
+        </li>
+        <li class="navigation__item">
+          <a href="" class="navigation__link">
+            Team
+          </a>
+        </li>
+        <li class="navigation__item">
+          <a href="" class="navigation__link">
+            Sign In
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="flex section section--centered">
+      <img src="images/illustration-1.svg" class="col illustration" />
+      <div class="col">
+        <h1 class="section__header header--important">
+          All your files in one secure location, accessible anywhere.
+        </h1>
+        <p class="section__description">
+          Fylo stores your most important files in one secure location.
+          Access them wherever you need, share and collaborate with friends,
+          family, and co-workers.
+        </p>
+        <form class="newsletter">
+          <input 
+            class="input" 
+            type="email" 
+            name="email" 
+            placeholder="Enter your email..."
+            />
+          <button class="button">
+            Get Started
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <section class="section section--blue flex">
+      <img src="./images/illustration-2.svg" class="illustration col" />
+      <div class="col desktop-order-1">
+        <article>
+          <h2 class="section__header">
+            Stay productive, wherever you are
+          </h2>
+          <p class="section__description">
+            Never let location be an issue when accessing your files. Fylo has you
+            covered for all of your file storage needs.
+            <br />
+            Securely share files and folders with friends, family and colleagues for
+            live collaboration. No email attachments required!
+          </p>
+          <a href="" class="link link--green">
+            See how Fylo works <img src="images/icon-arrow.svg" />
+          </a>
+        </article>
+        <article class="testimonial">
+          <q class="testimonial__quote">
+            Fylo has improved our team productivity by an order of magnitude. Since
+            making the switch our team has become a well-oiled collaboration machine.
+          </q>
+          <div class="testimonial__author">
+            <img class="testimonial__image" src="images/avatar-testimonial.jpg" />
+            <div class="testimonial__credentials">
+              <h3 class="testimonial__name">Kyle Burton</h3>
+              <h4 class="testimonial__role">Founder & CEO, Huddle</h4>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section--centered early flex">
+      <div class="col">
+        <h2 class="section__header">
+          Get early access today
+        </h2>
+        <p class="section__description">
+          It only takes a minute to sign up and our free starter tier is extremely generous.
+          If you have any questions, our support team would be happy to help you.
+        </p>
+      </div>
+      <form class="newsletter col">
+        <input 
+          class="input" 
+          type="email" 
+          id="emailNewsletter" 
+          name="emailNewsletter"
+          placeholder="Enter your email..."
+          >
+        <button class="button">
+          Get Started For Free
+        </button>
+      </form>
+    </section>
+
+    <section class="section footer">
+      <h1 class="footer__logo"></h1>
+      <article class="footer__actions">
+        <div>
+          <p class="contact">
+            <img src="./images/icon-phone.svg" alt="phone" />
+            Phone: +1-543-123-4567
+          </p>
+          <p class="contact">
+            <img src="./images/icon-email.svg" alt="email">
+            example@fylo.com
+          </p>
+        </div>
+        <nav class="footer__navigation">
+          <ul>
+            <li>
+              <a class="footer__link" href="">
+                About Us
+              </a>
+            </li>
+            <li>
+              <a class="footer__link" href="">
+                Jobs
+              </a>
+            </li>
+            <li>
+              <a class="footer__link" href="">
+                Press
+              </a>
+            </li>
+            <li>
+              <a class="footer__link" href="">
+                Blog
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="footer__navigation">
+          <ul>
+            <li>
+              <a class="footer__link" href="">
+                Contact Us
+              </a>
+            </li>
+            <li>
+              <a class="footer__link" href="">
+                Terms
+              </a>
+            </li>
+            <li>
+              <a class="footer__link" href="">
+                Privacy
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <article class="socials">
+          <span></span>
+          <span></span>
+          <span></span>
+        </article>
+      </article>
+    </section>
+  </main>
+
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400&display=swap" rel="stylesheet"> 
+</body>
+
+</html>
